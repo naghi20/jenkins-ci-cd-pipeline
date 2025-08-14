@@ -115,14 +115,15 @@ URL: http://<jenkins-ip>:8080/github-webhook/
 Content-Type: application/json
 
 Repository Structure
-text
+
 jenkins-ci-cd-pipeline/
-├── app/
-│   ├── app.py               # Python Flask application
-│   └── requirements.txt      # Dependencies
-├── Dockerfile               # Container configuration
-├── Jenkinsfile              # Pipeline definition
-└── screenshots/             # Pipeline/output visuals
+ app/
+   app.py               # Python Flask application
+  requirements.txt      # Dependencies
+ Dockerfile               # Container configuration
+Jenkinsfile              # Pipeline definition
+screenshots/             # Pipeline/output visuals
+
 🚦 Running the Pipeline
 Manual Trigger:
 Click Build Now in Jenkins.
