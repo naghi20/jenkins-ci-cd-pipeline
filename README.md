@@ -74,8 +74,6 @@ This project demonstrates a **fully automated CI/CD pipeline** using Jenkins to:
 ---
 
 ## 🏗️ Pipeline Architecture
-```mermaid
-graph LR
     A[GitHub] -->|Webhook| B(Jenkins)
     B --> C[Build Docker Image]
     C --> D[Push to DockerHub]
@@ -114,7 +112,7 @@ In GitHub repo settings, add a webhook:
 URL: http://<jenkins-ip>:8080/github-webhook/
 Content-Type: application/json
 
-Repository Structure
+**Repository Structure
 
 jenkins-ci-cd-pipeline/
  app/
